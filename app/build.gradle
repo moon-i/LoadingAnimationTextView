@@ -6,6 +6,10 @@ plugins {
 android {
     compileSdk 31
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.moon.loadinganimationtextview"
         minSdk 21
